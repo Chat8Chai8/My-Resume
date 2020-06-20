@@ -1,19 +1,25 @@
 #container .name {
     font-weight: bold;
-    border: 1px solid #000000;
-    border-width: 2mm;
     color: rgb(0, 0, 0);
 }
 
-#container {
-    background-color: rgb(150, 150, 150);
+#container .description {
+    font-weight: bold;
+    border-left: 1px solid #000000;
 }
 
-#container .lists li:nth-child(2) {
-    color: rgb(0, 200, 200);
-    font-weight: 600;
+#container {
+    background-color: rgb(255, 255, 255);
 }
-li:nth-child(1) {
-    color: rgb(85, 0, 170);
-    font-size: large;
+
+#container h3 {
+    color: rgb(0, 130, 130);
+    font-weight: 600;
+    border-bottom: 1px solid #000000;
+}
+
+#container h2 {
+    color: #000000;
+    font-weight: 600;
+    border-bottom: 1px solid #000000;
 }
